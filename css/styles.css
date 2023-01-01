@@ -1,0 +1,162 @@
+
+
+/* BODY */
+
+body{
+  font-family: "Montserrat";
+}
+
+/* <!-- Title --> */
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+h1{
+  font-family: "Montserrat";
+  size:4rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+ /* <!-- Nav Bar --> */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding : 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+
+}
+/* download button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.Google-play{
+  background-color: #ff4c68;
+}
+
+/* title image */
+.dog-phone-image{
+  transform: rotate(25deg);
+  width:250px;
+  position: absolute;
+}
+
+/* Features */
+#features{
+  text-align: center;
+  padding: 6%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-p{
+color: #8f8f8f;
+
+}
+.features-icons{
+  color: #ef8172;
+  font-size: 50px;
+  padding: 10px;
+}
+.features-icons:hover{
+  color: #ff4c68;
+
+}
+
+.featues-h3{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+/* testimonials */
+#testimonials{
+  color: #fff;
+  background-color: #ef8172;
+  text-align: center;
+  font-family: Montserrat;
+ padding:3%;
+
+}
+.testimonial-image{
+  border-radius: 100%;
+  width : 100px;
+  margin: 10px;
+}
+
+.{
+  carousel-item
+  padding: 7% 15%;
+}
+/* <!-- Press --> */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.Price-card{
+  padding:2% 3%;
+}
+.btn-block{
+  width:100%;
+}
+.pricing-para{
+  padding-bottom: 40px;
+}
+
+/* call to action */
+#cta{
+  text-align: center;
+  background-color:#ff4c68;
+  padding: 7% 15%;
+  color: #fff;
+
+}
+.cta-h{
+  font-size: 40px;
+}
+/* footer */
+#footer{
+  background-color: #fff;
+  padding: 7% 15%;
+  font-family:Montserrat;
+  text-align: center;
+}
+.footer-para{
+  color: #8f8f8f;
+}
+.footer-item{
+  padding: 5px;
+}
+/* media Query  */
+ @media (max-width: 1080px) {
+
+    #title{
+      text-align: center;
+    }
+  .dog-phone-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+
+}
